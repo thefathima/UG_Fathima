@@ -1,0 +1,171 @@
+/*--------------------------------------- NAV BAR ------------------------------------------*/
+nav {
+  /*sets the navbar to be a flex container and aligns the items within it to be centered and evenly spaced */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*adds padding around the navbar */
+  padding: 10px;
+  /*sets the background color of the navbar to be dark grey */
+ 
+  }
+  
+  .logo {
+  /* sets the size and position of the logo image */
+  object-fit: contain;
+  }
+  
+  .nav-links {
+  /*aligns the font and stretches the links to fill the navbar */
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  /* sets the font size of the links */
+  font-size: 20px;
+  }
+  
+  .nav-links li {
+  /* Removes the bullet point from the list items */
+  list-style: none;
+  }
+  
+  .nav-links a:link, .nav-links a:visited {
+  /* sets the default color of the links to white */
+  color: rgb(0, 0, 0);
+  }
+  
+  .nav-links a:hover {
+  /* Changes the color of the links when hovered over to grey */
+  color: rgb(255, 255, 255);
+  }
+  
+  #about-link {
+  /* sets the color of the 'about' link to grey */
+  color: grey;
+  }
+ 
+  
+
+ /*----------------------------------- LOGIN & REG NAV BAR ------------------------------------------*/
+  /* set the flex property to 1 and display as flex for the nav-left class */
+.nav-left{
+flex:1;
+display: flex;
+/* align the content to the right within the nav-left class */
+justify-content: right;
+/* set the font-size for the text within the nav-left class */
+font-size: 20px;
+}
+
+/* remove any default list styling for the nav-left li class */
+.nav-left li {
+list-style: none;
+}
+
+/* remove underlines and change the text color to white for the nav-left a class */
+.nav-left a {
+/* add a margin of 20px to the left of the text within the nav-left a class */
+margin-left: 20px;
+text-decoration: none;
+color: white;
+}
+
+/* Change the color of the links to white when they are left or visited */
+.nav-left a:left, .nav-left a:visited {
+color: white;
+}
+
+/* Change the color of the links on hover /
+/* Change the color of the text within the nav-left a class to grey when hovered over */
+.nav-left a:hover {
+color: rgb(0, 0, 0);
+}
+
+/*set the default color of text within the nav-links a class as black*/
+.nav-links a{
+color: #000; /*default color*/
+text-decoration: none;
+padding: 10px;
+}
+/* change the color of the text within the nav-links a class to rgb(103, 116, 115)
+when it has the active class*/
+.nav-links a.active{
+color: rgb(255, 255, 255); /*color when clicked*/
+text-decoration: none;
+padding: 10px;
+}
+/* This css code is used to style the login and registration navigation, 
+it sets the layout, text color, hover color and active class of the links.*/
+  
+  
+/*-------------------------------------------FOOTER-------------------------------------------------*/
+footer {
+  /* Position the footer at the bottom of the page */
+position:relative;
+  bottom: 0;
+  /* Set the width of the footer to 96% */
+  width: 96%;
+  /* Set the background color to #333 */
+  background-color: #90C5A9;
+  /* Set the text color to white */
+  color: rgb(0, 0, 0);
+  /* Add padding of 20px */
+  padding: 20px;
+  }
+  
+  /* Create a container for the footer elements */
+  .footer-container {
+  /* Set the container to display as a flexbox */
+  display: flex;
+  /* Justify the contents of the container to be spaced evenly between the left and right sides */
+  justify-content: space-between;
+  }
+  
+  /* Set the width of the left and right sections of the footer to 26% */
+  .footer-left, .footer-right {
+  width: 26%;
+  }
+  
+  /* Align the copyright text to the right */
+  .footer-copyright {
+  text-align: right;
+  }
+    
+  /* To display the different product images for user to choose */
+.product-container {
+    display: flex;
+  }
+  /*for each image from the different angle for the product */
+  .product-images {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
+  }
+  /*for the images*/
+  .product-images img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  /*For the main image to be displayed*/
+  .main-image-container {
+    flex: 1;
+    text-align: center;
+  }
+  /*For the main image to be displayed*/
+  #main-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  /*To display the product details*/
+  .product-details {
+    flex: 1;
+    padding: 10px;
+  }  
+  /*For the zoomed-in effect on the main image*/
+  #main-image:hover {
+    transform: scale(3);
+  }

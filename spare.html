@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <title>Chain App Dev - App Landing Page HTML5 Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/appliance.css">
+
+<style>
+    .product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%; /* Adjust this as necessary to fit your design */
+  display: block; /* Ensures the image doesn't have extra space below it */
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  margin-top: auto; /* Pushes the button to the bottom if there's extra space */
+  background-color: #02284d; /* Dark blue background */
+  color: white; /* White text */
+  border: none; /* Removes any default border */
+  padding: 10px 0; /* Adds some padding inside the button for better visual appearance */
+  cursor: pointer; /* Changes cursor to pointer on hover over the button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  border-radius: 5px; /* Rounds the corners of the button */
+}
+
+.add-to-cart-btn:hover {
+  background-color: #1968b8; /* Slightly darker blue on hover for feedback */
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <!-- <img src="assets/images/logoqf2.png" alt="Chain App Dev">-->
+              <img src="assets/images/logoqf2.png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html">Home</a></li>
+              <li class="scroll-to-section"><a href="aboutus.html">About Us</a></li>
+              <li class="scroll-to-section"><a href="appliance.html" >Appliance</a></li>
+              <li class="scroll-to-section"><a href="spare.html" class="active">Spare Parts</a></li>
+              <li>
+                <div class="gradient-button"><a id="modal_trigger" href="#modal"></i> Information Guide </a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>High-End <em>Spare Parts</em> for you</h4>
+
+
+            <h2><EM> For all your appliance needs: </EM> </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- HTML for the dropdown list -->
+    <label for="sort-options">Sort by:</label>
+    <select id="sort-options" onchange="sortSunglasses()">
+      <option value="price">Low to High</option>
+      <option value="price">High to Low</option>
+    </select>
+    <ul id="ulP">
+      <li id="liP">
+       
+          <h3>Drain Pump</h3>
+          <img src="assets/images/sp2.png" alt="">
+          <h6>Universal drain pump ensures efficient and reliable expulsion of water, preventing water logging and aiding in the proper drying of clothes.</h6>
+          <br>
+          <h5>AED 120.00</h5>
+          <button class="add-to-cart-btn">Add to Cart</button>
+      </li>
+      <li id="liP">
+       
+        <h3>Pulsator Baffle</h3>
+        <img src="assets/images/sp2.0.png" alt="">
+        <h6>Enhances the movement of clothes through water, ensuring a thorough clean by efficiently dislodging dirt.</h6>
+        <br>
+        <h5>AED 70.00</h5>
+        <button class="add-to-cart-btn">Add to Cart</button>
+    </li>
+    <li id="liP">
+       
+      <h3>Gearbox </h3>
+      <img src="assets/images/sp3.0.png" alt="">
+      <h6>Enhances the movement of clothes through water, ensuring a thorough clean by efficiently dislodging dirt.</h6>
+      <br>
+      <h5>AED 90.00</h5>
+      <button class="add-to-cart-btn">Add to Cart</button>
+  </li>
+  <li id="liP">
+       
+    <h3>Motor Coupling </h3>
+    <img src="assets/images/sp1.1.png" alt="">
+    <h6>Connects the motor to the transmission, designed to break under strain to protect the motor and gearbox from damage.</h6>
+    <br>
+    <h5>AED 110.00</h5>
+    <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+<li id="liP">
+       
+  <h3>Clutch Assembly </h3>
+  <img src="assets/images/sp1.2.png" alt="">
+  <h6>Facilitates a smooth transition to the spin cycle, preventing wear and ensuring clothes are spun at the right speed for drying.</h6>
+  <br>
+  <h5>AED 130.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+<li id="liP">
+       
+  <h3>Electronic Control Board </h3>
+  <img src="assets/images/sp4.0.png" alt="">
+  <h6> The command center of the washing machine, orchestrating each function and cycle for optimal performance.</h6>
+  <br>
+  <h5>AED 110.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+<li id="liP">
+       
+  <h3>Door interlock </h3>
+  <img src="assets/images/sp5.0.png" alt="">
+  <h6> Secures the washing machine door during operation, ensuring it remains closed and locked for safety, preventing accidental opening.</h6>
+  <br>
+  <h5>AED 50.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+<li id="liP">
+       
+  <h3>Thermostat </h3>
+  <img src="assets/images/sp6.0.png" alt="">
+  <h6> Monitors and regulates the refrigerator's internal temperature, ensuring food is kept at the optimal freshness level.</h6>
+  <br>
+  <h5>AED 60.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+
+<li id="liP">
+       
+  <h3>Control Knob</h3>
+  <img src="assets/images/sp7.0.png" alt="">
+  <h6> Allows precise manual adjustments of the refrigerator's temperature settings, ensuring optimal cooling and freshness levels.</h6>
+  <br>
+  <h5>AED 70.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+
+<li id="liP">
+       
+  <h3>Burner</h3>
+  <img src="assets/images/sp9.0.png" alt="">
+  <h6> Delivers adjustable heat directly to cookware, enabling precise control for a variety of cooking techniques from simmering to boiling.</h6>
+  <br>
+  <h5>AED 80.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+
+<li id="liP">
+       
+  <h3>Sealer Gasket</h3>
+  <img src="assets/images/sp10.1.png" alt="">
+  <h6> Ensures an airtight seal between cooking surfaces, preventing leaks and maintaining consistent cooking temperatures and efficiency.</h6>
+  <br>
+  <h5>AED 90.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+<li id="liP">
+       
+  <h3>Heater Element</h3>
+  <img src="assets/images/sp11.png" alt="">
+  <h6> Converts electrical energy into heat, providing consistent and controllable warmth for cooking or baking within appliances.</h6>
+  <br>
+  <h5>AED 190.00</h5>
+  <button class="add-to-cart-btn">Add to Cart</button>
+</li>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+
+
+<footer id="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="section-heading">
+          <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+        </div>
+      </div>
+      <div class="col-lg-6 offset-lg-3">
+        <form id="search" action="#" method="GET">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <fieldset>
+                <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <fieldset>
+                <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="footer-widget">
+          <h4>Contact Us</h4>
+          <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
+          <p><a href="#">010-020-0340</a></p>
+          <p><a href="#">info@company.co</a></p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-widget">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+      <div class="footer-widget">
+      <h4>Useful Links</h4>
+      <ul>
+      <li><a href="#">Free Apps</a></li>
+      <li><a href="#">App Engine</a></li>
+      <li><a href="#">Programming</a></li>
+      <li><a href="#">Development</a></li>
+      <li><a href="#">App News</a></li>
+      </ul>
+      <ul>
+      <li><a href="#">App Dev Team</a></li>
+      <li><a href="#">Digital Web</a></li>
+      <li><a href="#">Normal Apps</a></li>
+      </ul>
+      </div>
+      </div>
+      <div class="col-lg-3">
+      <div class="footer-widget">
+      <h4>About Our Company</h4>
+      <div class="logo">
+      <img src="assets/images/white-logo.png" alt="">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      </div>
+      <div class="col-lg-12">
+      <div class="copyright-text">
+      <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
+      <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+      </div>
+      </div>
+      </div>
+      
+        </div>
+        
+      </footer>
+      <!-- Scripts -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/owl-carousel.js"></script>
+      <script src="assets/js/animation.js"></script>
+      <script src="assets/js/imagesloaded.js"></script>
+      <script src="assets/js/popup.js"></script>
+      <script src="assets/js/custom.js"></script>
+      </body>
+      </html>

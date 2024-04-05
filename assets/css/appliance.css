@@ -1,0 +1,142 @@
+
+  
+   /*----------------------------------- LOGIN & REG NAV BAR ------------------------------------------*/
+    /* set the flex property to 1 and display as flex for the nav-left class */
+  .nav-left{
+  flex:1;
+  display: flex;
+  /* align the content to the right within the nav-left class */
+  justify-content: right;
+  /* set the font-size for the text within the nav-left class */
+  font-size: 20px;
+  }
+  
+  /* remove any default list styling for the nav-left li class */
+  .nav-left li {
+  list-style: none;
+  }
+  
+  /* remove underlines and change the text color to white for the nav-left a class */
+  .nav-left a {
+  /* add a margin of 20px to the left of the text within the nav-left a class */
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  }
+  
+  /* Change the color of the links to white when they are left or visited */
+  .nav-left a:left, .nav-left a:visited {
+  color: white;
+  }
+  
+  /* Change the color of the links on hover /
+  /* Change the color of the text within the nav-left a class to grey when hovered over */
+  .nav-left a:hover {
+  color: rgb(0, 0, 0);
+  }
+  
+  /*set the default color of text within the nav-links a class as black*/
+  .nav-links a{
+  color: #000; /*default color*/
+  text-decoration: none;
+  padding: 10px;
+  }
+  /* change the color of the text within the nav-links a class to rgb(103, 116, 115)
+  when it has the active class*/
+  .nav-links a.active{
+  color: rgb(255, 255, 255); /*color when clicked*/
+  text-decoration: none;
+  padding: 10px;
+  }
+  /* This css code is used to style the login and registration navigation, 
+  it sets the layout, text color, hover color and active class of the links.*/
+    
+    
+  /*-------------------------------------------FOOTER-------------------------------------------------*/
+
+    
+   
+  #ulP {
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+  }
+    
+  #liP {
+      width: 33.33%;
+      padding: 1rem;
+      box-sizing: border-box;
+  }
+    
+  /* For the product images */
+  #productImg {
+      max-width: 75%;
+  }
+  a { color: inherit;text-decoration:none; } 
+  
+  /* For the add to cart buttons */
+  button {
+      background-color: #333;
+      color: #fff;
+      padding: 12px 20px;
+  }  
+  
+    /* To style the dropdown list */
+#sort-options {
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
+    background-color: #fff;
+    color: #000;
+  }
+  /* To style the dropdown list */
+  label{
+    padding-left: 80%;
+  }
+  
+  /* To style the slideshows */
+  #slideshow {
+
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    }
+    /*For the slideshow images*/
+    #slideshow img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    /*For the search form*/
+    #search-form {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+      }
+      /*For the search form*/
+      #search-input {
+        border: 1px solid #ccc;
+        padding: 10px;
+        flex: 1;
+      }
+      /*For the search form*/
+      #search-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      /*For the search form*/
+      #search-button:hover {
+        background-color: #3e8e41;
+      }
+      
+    
+  
+    
+    
+    
