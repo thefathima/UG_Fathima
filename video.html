@@ -1,89 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Chain App Dev - Single Product Page</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
-  <style>
-    .header-area {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1000; /* Ensures the header stays above other content */
-      background-color: #ffffff; /* Background color added for visibility */
-    }
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
 
-        body {
-  padding-top: 100px; /* Adjust this value based on the actual height of your header */
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  background: linear-gradient(135deg, #6fb1fc, #0052d4); /* Updated gradient background */
-  color: #fff; /* Ensuring the text is visible on the dark background */
+  <title>Quick Fix</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/appliance.css">
+
+<style>
+    .product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-    
+.product-image {
+  width: 100%; /* Adjust this as necessary to fit your design */
+  display: block; /* Ensures the image doesn't have extra space below it */
+}
 
-    .product-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: flex-start;
-      gap: 20px;
-      padding: 20px;
-    }
+.add-to-cart-btn {
+  width: 100%;
+  margin-top: auto; /* Pushes the button to the bottom if there's extra space */
+  background-color: #02284d; /* Dark blue background */
+  color: white; /* White text */
+  border: none; /* Removes any default border */
+  padding: 10px 0; /* Adds some padding inside the button for better visual appearance */
+  cursor: pointer; /* Changes cursor to pointer on hover over the button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  border-radius: 5px; /* Rounds the corners of the button */
+}
 
-    .main-image-container, .product-images {
-      flex-basis: 100%;
-      text-align: center;
-    }
+.add-to-cart-btn:hover {
+  background-color: #1968b8; /* Slightly darker blue on hover for feedback */
+}
 
-    .product-images img {
-      max-width: 100px;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-      margin: 0 5px; /* Added margin for spacing */
-    }
-
-    .product-images img:hover {
-      transform: scale(1.1);
-    }
-
-    .product-details {
-      flex: 1;
-      max-width: 500px; /* Maximum width */
-      padding: 20px;
-      text-align: left;
-    }
-
-    .product-details h2, .product-details p, .product-details button {
-      margin-bottom: 20px;
-    }
-
-    .product-details button {
-      background-color: #004080;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .product-details button:hover {
-      background-color: #002d5a;
-    }
-
-    .container {
-      width: 80%;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .video-container {
+.video-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr); /* Two videos per row */
       grid-gap: 30px;
@@ -95,100 +66,139 @@
       cursor: pointer;
     }
 
-    h1.title {
-      color: #ffffff; /* Dark blue color for the title */
-    }
-  </style>
+
+</style>
+
 </head>
+
 <body>
 
-<header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <nav class="main-nav">
-          <!-- ***** Logo Start ***** -->
-          <a href="index.html" class="logo">
-            <img src="assets/images/logoqf2.png" alt="QuickFix">
-          </a>
-          <!-- ***** Menu Start ***** -->
-          <ul class="nav">
-            <li class="scroll-to-section"><a href="#top">Home</a></li>
-            <li class="scroll-to-section"><a href="aboutus.html">About Us</a></li>
-            <li class="scroll-to-section"><a href="appliance.html">Appliance</a></li>
-            <li class="scroll-to-section"><a href="spare.html">Spare Parts</a></li>
-            <li><div class="gradient-button"><a id="modal_trigger" class="active" href="#modal">Information Guide</a></div></li> 
-          </ul>        
-          <a class='menu-trigger'>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <!-- <img src="assets/images/logoqf2.png" alt="Chain App Dev">-->
+              <img src="assets/images/logoqf2.png" alt="Chain App Dev">
+            </a>
+            <!-- Logo End -->
+            <!-- Menu Start -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html">Home</a></li>
+              <li class="scroll-to-section"><a href="aboutus.html">About Us</a></li>
+              <li class="scroll-to-section"><a href="appliance.html">Appliance</a></li>
+              <li class="scroll-to-section"><a href="spare.html">Parts</a></li>
+              <li class="scroll-to-section"><a href="video.html" class="active">Information Guide</a></li>
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              <li class="scroll-to-section"><a id="modal_trigger" href="#modal"> <i class="fas fa-user"></i> Login </a>
+              </li>
+              &nbsp; &nbsp;
+              <li class="scroll-to-section"><a href="checkout.html"></i>Checkout <i
+                    class="fas fa-shopping-cart"></a></i></li>
+
+              <!-- Updated Checkout Button with Icon -->
+              <!--<li class="scroll-to-section"><a href="checkout.html" class="checkout-button"><i class="fas fa-shopping-cart"></i> Checkout</a></li>
+              -->
+            </ul>
+            <a class='menu-trigger'>
               <span>Menu</span>
-          </a>
-        </nav>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
+  <!-- ***** Header Area End ***** -->
 
-<div class="container">
-  <br><br>
-  <h1 class="title">Tips & Support to take care of Your Appliances:</h1>
-  <br>
-  <div class="video-container">
-    <a href="video1.html">
-        <video controls>
-          <source src="assets/images/wmv1.0.mp4" type="video/mp4">
-        </video>
-      </a>
-      <a href="video2.html">
-        <video controls>
-          <source src="assets/images/wmv2.0.mp4" type="video/mp4">
-        </video>
-      </a>
-      <a href="video2.html">
-          <video controls>
-            <source src="assets/images/wmv3.0.mp4" type="video/mp4">
-          </video>
-        </a>
-        <a href="video2.html">
-          <video controls>
-            <source src="assets/images/Refv1.0.mp4" type="video/mp4">
-          </video>
-        </a>
-        <a href="video2.html">
-          <video controls>
-            <source src="assets/images/Refv2.0.mp4" type="video/mp4">
-          </video>
-        </a>
-        <a href="video2.html">
+
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>Support and <em> Guidance </em> for you</h4>
+
+
+            <h2><EM> To help solve your appliance conundrums </EM> </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class="video-container">
+        <a href="video1.html">
             <video controls>
-              <source src="assets/images/Refv3.0.mp4" type="video/mp4">
+              <source src="assets/images/wmv1.0.mp4" type="video/mp4">
             </video>
           </a>
           <a href="video2.html">
             <video controls>
-              <source src="assets/images/Refv3.0.mp4" type="video/mp4">
+              <source src="assets/images/wmv2.0.mp4" type="video/mp4">
             </video>
           </a>
-    <!-- Add more video elements for additional videos -->
-    <a href="video2.html">
-        <video controls>
-          <source src="assets/images/crv1.0.mp4" type="video/mp4">
-        </video>
-      </a>
-      <a href="video2.html">
-          <video controls>
-            <source src="assets/images/crv2.0.mp4" type="video/mp4">
-          </video>
-        </a>
+          <a href="video2.html">
+              <video controls>
+                <source src="assets/images/wmv3.0.mp4" type="video/mp4">
+              </video>
+            </a>
+            <a href="video2.html">
+              <video controls>
+                <source src="assets/images/Refv1.0.mp4" type="video/mp4">
+              </video>
+            </a>
+            <a href="video2.html">
+              <video controls>
+                <source src="assets/images/Refv2.0.mp4" type="video/mp4">
+              </video>
+            </a>
+            <a href="video2.html">
+                <video controls>
+                  <source src="assets/images/Refv3.0.mp4" type="video/mp4">
+                </video>
+              </a>
+              <a href="video2.html">
+                <video controls>
+                  <source src="assets/images/Refv3.0.mp4" type="video/mp4">
+                </video>
+              </a>
+        <!-- Add more video elements for additional videos -->
         <a href="video2.html">
-          <video controls>
-            <source src="assets/images/crv3.0.mp4" type="video/mp4">
-          </video>
-        </a>
-  </div>
-</div>
+            <video controls>
+              <source src="assets/images/crv1.0.mp4" type="video/mp4">
+            </video>
+          </a>
+          <a href="video2.html">
+              <video controls>
+                <source src="assets/images/crv2.0.mp4" type="video/mp4">
+              </video>
+            </a>
+            <a href="video2.html">
+              <video controls>
+                <source src="assets/images/crv3.0.mp4" type="video/mp4">
+              </video>
+            </a>
+      </div>
+    </div>
 
 
-<!-----------------FOOOOOOTER----------------------------->
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+
+
 <footer id="newsletter">
   <div class="container">
     <div class="row">
@@ -236,53 +246,54 @@
           <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Pricing</a></li>
-                </ul>
-                </div>
-                </div>
-                <div class="col-lg-3">
-                <div class="footer-widget">
-                <h4>Useful Links</h4>
-                <ul>
-                <li><a href="#">Free Apps</a></li>
-                <li><a href="#">App Engine</a></li>
-                <li><a href="#">Programming</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">App News</a></li>
-                </ul>
-                <ul>
-                <li><a href="#">App Dev Team</a></li>
-                <li><a href="#">Digital Web</a></li>
-                <li><a href="#">Normal Apps</a></li>
-                </ul>
-                </div>
-                </div>
-                <div class="col-lg-3">
-                <div class="footer-widget">
-                <h4>About Our Company</h4>
-                <div class="logo">
-                <img src="assets/images/white-logo.png" alt="">
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                </div>
-                </div>
-                <div class="col-lg-12">
-                <div class="copyright-text">
-                <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
-                <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
-                </div>
-                </div>
-                </div>
-                
-                  </div>
-                </footer>
-                <!-- Scripts -->
-                <script src="vendor/jquery/jquery.min.js"></script>
-                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                <script src="assets/js/owl-carousel.js"></script>
-                <script src="assets/js/animation.js"></script>
-                <script src="assets/js/imagesloaded.js"></script>
-                <script src="assets/js/popup.js"></script>
-                <script src="assets/js/custom.js"></script>
-                </body>
-                </html>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+      <div class="footer-widget">
+      <h4>Useful Links</h4>
+      <ul>
+      <li><a href="#">Free Apps</a></li>
+      <li><a href="#">App Engine</a></li>
+      <li><a href="#">Programming</a></li>
+      <li><a href="#">Development</a></li>
+      <li><a href="#">App News</a></li>
+      </ul>
+      <ul>
+      <li><a href="#">App Dev Team</a></li>
+      <li><a href="#">Digital Web</a></li>
+      <li><a href="#">Normal Apps</a></li>
+      </ul>
+      </div>
+      </div>
+      <div class="col-lg-3">
+      <div class="footer-widget">
+      <h4>About Our Company</h4>
+      <div class="logo">
+      <img src="assets/images/white-logo.png" alt="">
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      </div>
+      </div>
+      <div class="col-lg-12">
+      <div class="copyright-text">
+      <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
+      <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+      </div>
+      </div>
+      </div>
+      
+        </div>
+        
+      </footer>
+      <!-- Scripts -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/owl-carousel.js"></script>
+      <script src="assets/js/animation.js"></script>
+      <script src="assets/js/imagesloaded.js"></script>
+      <script src="assets/js/popup.js"></script>
+      <script src="assets/js/custom.js"></script>
+      </body>
+      </html>
