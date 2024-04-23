@@ -197,7 +197,7 @@
           <h3>Door interlock </h3>
           <img src="assets/images/sp5.0.png" alt="">
           <h6> Secures the washing machine door during operation, ensuring it remains closed and locked for safety.
-            </h6>
+          </h6>
           <br>
           <h5>AED 50.00</h5>
           <button class="add-to-cart-btn">Add to Cart</button>
@@ -262,6 +262,37 @@
     </div>
   </div>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+        button.addEventListener('click', function () {
+          const product = this.parentNode;
+          const title = product.querySelector('h3').innerText;
+          const price = product.querySelector('h5').innerText;
+          const imageSrc = product.querySelector('img').src;
+
+          const cartItem = {
+            title: title,
+            price: price,
+            imageSrc: imageSrc,
+            quantity: 1
+          };
+
+          let cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
+          let existingItem = cart.find(item => item.title === title);
+          if (existingItem) {
+            existingItem.quantity += 1;
+          } else {
+            cart.push(cartItem);
+          }
+
+          localStorage.setItem('cart', JSON.stringify(cart));
+          alert(title + ' added to cart');
+        });
+      });
+    });
+
+  </script>
 
 
 

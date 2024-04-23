@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Drain Pump",
+        "description": "Universal drain pump ensures efficient and reliable expulsion of water, preventing water logging.",
+        "price": 120.00,
+        "images": [
+            "assets/images/sp2.png"
+        ]
+    },
+    {
+        "title": "Pulsator Baffle",
+        "description": "Enhances the movement of clothes through water, ensuring a thorough clean by efficiently dislodging dirt.",
+        "price": 70.00,
+        "images": [
+            "assets/images/sp2.0.png"
+        ]
+    },
+    {
+        "title": "Gearbox",
+        "description": "Enhances the movement of clothes through water, ensuring a thorough clean by efficiently dislodging dirt.",
+        "price": 90.00,
+        "images": [
+            "assets/images/sp3.0.png"
+        ]
+    },
+    {
+        "title": "Motor Coupling",
+        "description": "Connects the motor to the transmission, designed to break under strain to protect the motor and gearbox from damage.",
+        "price": 110.00,
+        "images": [
+            "assets/images/sp1.1.png"
+        ]
+    },
+    {
+        "title": "Clutch Assembly",
+        "description": "Facilitates a smooth transition to the spin cycle, preventing wear and ensuring clothes are spun at the right speed for drying.",
+        "price": 130.00,
+        "images": [
+            "assets/images/sp1.2.png"
+        ]
+    },
+    {
+        "title": "Electronic Control Board",
+        "description": "The command center of the washing machine, orchestrating each function and cycle for optimal performance.",
+        "price": 110.00,
+        "images": [
+            "assets/images/sp4.0.png"
+        ]
+    },
+    {
+        "title": "Door interlock",
+        "description": "Secures the washing machine door during operation, ensuring it remains closed and locked for safety.",
+        "price": 50.00,
+        "images": [
+            "assets/images/sp5.0.png"
+        ]
+    },
+    {
+        "title": "Thermostat",
+        "description": "Monitors and regulates the refrigerator's internal temperature, ensuring food is kept at the optimal freshness level.",
+        "price": 60.00,
+        "images": [
+            "assets/images/sp6.0.png"
+        ]
+    },
+    {
+        "title": "Control Knob",
+        "description": "Allows precise manual adjustments of the refrigerator's temperature settings, ensuring optimal cooling and freshness levels.",
+        "price": 70.00,
+        "images": [
+            "assets/images/sp7.0.png"
+        ]
+    },
+    {
+        "title": "Burner",
+        "description": "Delivers adjustable heat directly to cookware, enabling precise control for a variety of cooking techniques from simmering to boiling.",
+        "price": 80.00,
+        "images": [
+            "assets/images/sp9.0.png"
+        ]
+    },
+    {
+        "title": "Sealer Gasket",
+        "description": "Ensures an airtight seal between cooking surfaces, preventing leaks and maintaining consistent cooking temperatures.",
+        "price": 90.00,
+        "images": [
+            "assets/images/sp10.1.png"
+        ]
+    },
+    {
+        "title": "Heater Element",
+        "description": "Converts electrical energy into heat, providing consistent and controllable warmth for cooking or baking within appliances.",
+        "price": 190.00,
+        "images": [
+            "assets/images/sp11.png"
+        ]
+    }
+]
