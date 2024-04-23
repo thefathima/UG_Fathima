@@ -400,20 +400,18 @@
         button.addEventListener('click', function () {
           const product = this.closest('li');
           const title = product.querySelector('h3').innerText;
-          const description = product.querySelector('h5').innerText;
           const price = product.querySelector('.product-price').innerText;
           const imageSrc = product.querySelector('img').src;
 
           const cartItem = {
             title: title,
-            description: description,
             price: price,
             imageSrc: imageSrc,
             quantity: 1
           };
 
           let cart = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];
-          let existingItem = cart.find(item => item.title === title && item.description === description);
+          let existingItem = cart.find(item => item.title === title);
           if (existingItem) {
             existingItem.quantity += 1;
           } else {
