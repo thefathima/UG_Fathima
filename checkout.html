@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+    <title>QuickFix</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Additional CSS Files -->
@@ -202,7 +202,7 @@
           <div class="item-image">
             <img src="${item.imageSrc}" alt="${item.title}" style="width: 80px; height: auto;">
           </div>
-          <div class="item-info" >
+          <div class="item-info" style="width: 100px; height: auto;">
             <h5>${item.title}</h5>
           </div>
           <div class="item-quantity">
@@ -246,31 +246,3 @@
             });
         });
     </script>
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var quantityInputs = document.querySelectorAll('input[type="number"]');
-
-            quantityInputs.forEach(function (input) {
-                input.addEventListener('change', function () {
-                    if (parseInt(this.value) < 1) {
-                        this.value = 1;
-                    }
-                });
-            });
-        });
-
-
-        document.addEventListener('DOMContentLoaded', function () {
-            // Select the confirm order button
-            var confirmOrderButton = document.querySelector('.btn-block');
-
-            // Add click event listener to the confirm order button
-            confirmOrderButton.addEventListener('click', function () {
-                // Display an alert message when the button is clicked
-                alert('Order has been placed successfully!');
-            });
-        });
-
-
-
-    </script> -->
