@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+    <title>QuickFix</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Additional CSS Files -->
@@ -65,82 +65,83 @@
 
 
     </header>
-    <body>
-    <br>
-    <br>
-    <br>
-    <section class="checkout-section">
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 col-lg-8">
-                    <h2 class="mb-4">Review Your Order</h2>
-                    <div class="cart-items">
-                        <!-- Item begins -->
-                        <div class="cart-item d-flex justify-content-between align-items-center">
-                            <div class="item-image">
-                                <img src="path/to/your/product-image.jpg" alt="Product Image"
-                                    style="width: 80px; height: auto;">
-                            </div>
-                            <div class="item-info">
-                                <h5>Product Name</h5>
-                            </div>
-                            <div class="item-quantity">
-                                <!-- Set min attribute to 1 to prevent negative values -->
-                                <input type="number" class="form-control" value="1" min="1" style="width: 60px;">
-                            </div>
-                            <div class="item-total">
-                                <p>$99.99</p>
-                            </div>
-                            <div class="remove-item">
-                                <button class="btn btn-danger">Remove</button>
-                            </div>
-                        </div>
-                        <!-- Item ends -->
-                        <!-- Repeat the above block for each item in the cart -->
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <h4 class="mb-4">Order Summary</h4>
-                    <div class="summary">
-                        <p>Subtotal: <span class="float-right">$99.99</span></p>
-                        <!-- Optionally add more details like shipping, tax, etc -->
-                        <hr>
-                        <p class="font-weight-bold">Total: <span class="float-right">$99.99</span></p>
-                        <br><br>
-                        <div class="payment-methods">
-                            <h4>Select Payment Method</h4>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="paypal"
-                                    value="paypal" checked>
-                                <label class="form-check-label" for="paypal">
-                                    PayPal
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="cashOnDelivery"
-                                    value="cashOnDelivery">
-                                <label class="form-check-label" for="cashOnDelivery">
-                                    Cash on Delivery
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="creditDebitCard"
-                                    value="creditDebitCard">
-                                <label class="form-check-label" for="creditDebitCard">
-                                    Credit/Debit Card
-                                </label>
-                            </div>
-                        </div>
 
-                        <br>
-                        <button type="button" class="btn btn-primary btn-lg btn-block">Confirm Order</button>
+    <body>
+        <br>
+        <br>
+        <br>
+        <section class="checkout-section">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h2 class="mb-4">Review Your Order</h2>
+                        <div class="cart-items">
+                            <!-- Item begins -->
+                            <div class="cart-item d-flex justify-content-between align-items-center">
+                                <div class="item-image">
+                                    <img src="path/to/your/product-image.jpg" alt="Product Image"
+                                        style="width: 80px; height: auto;">
+                                </div>
+                                <div class="item-info">
+                                    <h5>Product Name</h5>
+                                </div>
+                                <div class="item-quantity">
+                                    <!-- Set min attribute to 1 to prevent negative values -->
+                                    <input type="number" class="form-control" value="1" min="1" style="width: 60px;">
+                                </div>
+                                <div class="item-total">
+                                    <p>$99.99</p>
+                                </div>
+                                <div class="remove-item">
+                                    <button class="btn btn-danger">Remove</button>
+                                </div>
+                            </div>
+                            <!-- Item ends -->
+                            <!-- Repeat the above block for each item in the cart -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h4 class="mb-4">Order Summary</h4>
+                        <div class="summary">
+                            <p>Subtotal: <span class="float-right">$99.99</span></p>
+                            <!-- Optionally add more details like shipping, tax, etc -->
+                            <hr>
+                            <p class="font-weight-bold">Total: <span class="float-right">$99.99</span></p>
+                            <br><br>
+                            <div class="payment-methods">
+                                <h4>Select Payment Method</h4>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="paymentMethod" id="paypal"
+                                        value="paypal" checked>
+                                    <label class="form-check-label" for="paypal">
+                                        PayPal
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="paymentMethod"
+                                        id="cashOnDelivery" value="cashOnDelivery">
+                                    <label class="form-check-label" for="cashOnDelivery">
+                                        Cash on Delivery
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="paymentMethod"
+                                        id="creditDebitCard" value="creditDebitCard">
+                                    <label class="form-check-label" for="creditDebitCard">
+                                        Credit/Debit Card
+                                    </label>
+                                </div>
+                            </div>
+
+                            <br>
+                            <button type="button" class="btn btn-primary btn-lg btn-block">Confirm Order</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    </body>  
+    </body>
 
     <br>
     <br>
@@ -156,32 +157,92 @@
     </div>
     </div>
     </section>
-
     <script>
+        //Load items from the cart in local storage
         document.addEventListener('DOMContentLoaded', function () {
-            var quantityInputs = document.querySelectorAll('input[type="number"]');
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartItemsContainer = document.querySelector('.cart-items');
 
-            quantityInputs.forEach(function (input) {
-                input.addEventListener('change', function () {
-                    if (parseInt(this.value) < 1) {
-                        this.value = 1;
-                    }
-                });
+            cart.forEach(item => {
+                const cartItemHTML = `
+      <div class="cart-item d-flex justify-content-between align-items-center">
+        <div class="item-image">
+          <img src="${item.imageSrc}" alt="${item.title}" style="width: 80px; height: auto;">
+        </div>
+        <div class="item-info" style="width: 120px; height:auto;">
+          <h5>${item.title}</h5>
+        </div>
+        <div class="item-quantity">
+          <input type="number" class="form-control" value="${item.quantity}" min="1" style="width: 50px;">
+        </div>
+        <div class="item-total" style="width: 80px;">
+          <p>${item.price}</p>
+        </div>
+        <div class="remove-item">
+          <button class="btn btn-danger">Remove</button>
+        </div>
+      </div>
+    `;
+
+                cartItemsContainer.innerHTML += cartItemHTML;
             });
         });
 
-       
-document.addEventListener('DOMContentLoaded', function() {
-  // Select the confirm order button
-  var confirmOrderButton = document.querySelector('.btn-block');
 
-  // Add click event listener to the confirm order button
-  confirmOrderButton.addEventListener('click', function() {
-    // Display an alert message when the button is clicked
-    alert('Order has been placed successfully!');
-  });
-});
+        //LOAD ITEMS FROM THE CART IN LOCAL STORAGE
+        document.addEventListener('DOMContentLoaded', function () {
+            const cartItemsContainer = document.querySelector('.cart-items');
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            function updateCartDisplay() {
+                cartItemsContainer.innerHTML = ''; // Clear existing items
+                cart.forEach((item, index) => {
+                    const cartItemHTML = `
+        <div class="cart-item d-flex justify-content-between align-items-center">
+          <div class="item-image">
+            <img src="${item.imageSrc}" alt="${item.title}" style="width: 80px; height: auto;">
+          </div>
+          <div class="item-info" style="width: 100px; height: auto;">
+            <h5>${item.title}</h5>
+          </div>
+          <div class="item-quantity">
+            <input type="number" class="form-control" value="${item.quantity}" min="1" style="width: 60px;">
+          </div>
+          <div class="item-total">
+            <p>${item.price}</p>
+          </div>
+          <div class="remove-item">
+            <button class="btn btn-danger" onclick="removeItem(${index})">Remove</button>
+          </div>
+        </div>
+      `;
+                    cartItemsContainer.innerHTML += cartItemHTML;
+                });
+            }
 
 
+            //REMOVE FUNCTION
+            function removeItem(index) {
+                cart.splice(index, 1); // Remove the item from the array
+                localStorage.setItem('cart', JSON.stringify(cart)); // Update local storage
+                updateCartDisplay(); // Refresh the cart display
+            }
 
-</script>
+            window.removeItem = removeItem; // Expose the removeItem function to the global window object for access in HTML
+
+            updateCartDisplay(); // Initially display the cart items
+        });
+
+
+        //CONFIRM ORDER
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select the confirm order button
+            var confirmOrderButton = document.querySelector('.btn-block');
+
+            // Add click event listener to the confirm order button
+            confirmOrderButton.addEventListener('click', function () {
+                // Display an alert message when the button is clicked
+                alert('Order has been placed successfully!');
+            });
+        });
+    </script>

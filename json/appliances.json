@@ -1,0 +1,254 @@
+[
+    {
+        "title": "HydroSpin 3000",
+        "subtitle": "Hydro Jet Technology",
+        "page_link": "1PagePid1.html",
+        "description": "Experience the power of deep cleaning with HydroSpin 3000, featuring advanced water jet technology for a thorough wash.",
+        "price": 250,
+        "type": "refurbished",
+        "images": [
+            "assets/images/wm1.0.png",
+            "assets/images/wm1.1.png",
+            "assets/images/wm1.2.png",
+            "assets/images/wm1.3.png"
+        ]
+    },
+    {
+        "title": "AquaWave EcoPlus",
+        "subtitle": "Eco-friendly Cycles",
+        "page_link": "1PagePid2.html",
+        "description": "Go green with AquaWave EcoPlus, designed for efficiency with eco-friendly cycles that save water and energy.",
+        "price": 450.00,
+        "type": "refurbished",
+        "images": [
+            "assets/images/wm2.0.png",
+            "assets/images/wm2.1.png",
+            "assets/images/wm2.2.png",
+            "assets/images/wm2.3.png"
+        ]
+    },
+    {
+        "title": "SpinMaster Pro",
+        "subtitle": "Stain Removable Technology",
+        "page_link": "1PagePid3.html",
+        "description": "Tackle tough stains effortlessly with SpinMaster Pro's dynamic spin cycles and durable build for long-lasting performance.",
+        "price": 150.00,
+        "type": "refurbished",
+        "images": [
+            "assets/images/wm3.0.png",
+            "assets/images/wm3.1.png",
+            "assets/images/wm3.3.png",
+            "assets/images/wm3.4.png"
+        ]
+    },
+    {
+        "title": "ChillWise FrostGuard",
+        "subtitle": "Frost-Free Preservation",
+        "page_link": "1PageRef1.html",
+        "description": "Keep things cool and frost-free with ChillWise FrostGuard, offering advanced refrigeration technology that preserves your food without the need for defrosting, ensuring hassle-free freshness.",
+        "price": 799.99,
+        "type": "refurbished",
+        "images": [
+            "assets/images/ref1.0.png",
+            "assets/images/ref1.1.png",
+            "assets/images/ref1.2.png",
+            "assets/images/ref1.3.png"
+        ]
+    },
+    {
+        "title": "PureFrost EcoFreeze",
+        "subtitle": "Arctic Conservation",
+        "page_link": "1PageRef2.html",
+        "description": "Embrace arctic conservation with PureFrost EcoFreeze, a refrigerator that maintains optimal temperatures with eco-friendly refrigerants, ensuring your food stays icy fresh while reducing environmental impact.",
+        "price": 530.00,
+        "type": "refurbished",
+        "images": [
+            "assets/images/ref2.0.png",
+            "assets/images/ref2.1.png",
+            "assets/images/ref2.2.png",
+            "assets/images/ref2.3.png"
+        ]
+    },
+    {
+        "title": "GreenGlide ChillZone",
+        "subtitle": "Glide into Freshness",
+        "page_link": "1PageRef3.html",
+        "description": "Glide into freshness with GreenGlide ChillZone, offering eco-friendly refrigeration that smoothly preserves your food, ensuring a cool and sustainable kitchen experience.",
+        "price": 999.99,
+        "type": "refurbished",
+        "images": [
+            "assets/images/ref3.0.png",
+            "assets/images/ref3.1.png",
+            "assets/images/ref3.2.png",
+            "assets/images/ref3.3.png"
+        ]
+    },
+    {
+        "title": "ChefCraft EcoFlame",
+        "subtitle": "Culinary Consciousness",
+        "page_link": "1PageCR1.html",
+        "description": "Master culinary arts sustainably with ChefCraft EcoFlame, featuring eco-friendly flame technology that cooks efficiently while reducing energy consumption, bringing culinary consciousness to your kitchen.",
+        "price": 990.00,
+        "type": "refurbished",
+        "images": [
+            "assets/images/cr1.0.png",
+            "assets/images/cr1.1.png",
+            "assets/images/cr1.2.png",
+            "assets/images/cr1.3.png"
+        ]
+    },
+    {
+        "title": "GreenGourmet EcoFusion",
+        "subtitle": "Fusion of Flavors",
+        "page_link": "1PageCR2.html",
+        "description": "Fuse flavors sustainably with GreenGourmet EcoFusion, a cooker that blends culinary creativity with eco-friendly cooking technologies, ensuring a harmonious balance of taste and environmental responsibility.",
+        "price": 530.00,
+        "type": "refurbished",
+        "images": [
+            "assets/images/cr2.0.png",
+            "assets/images/cr2.1.png",
+            "assets/images/cr2.2.png",
+            "assets/images/cr2.3.png"
+        ]
+    },
+    {
+        "title": "PureCook EcoSizzle",
+        "subtitle": "Sizzling Sustainability",
+        "page_link": "1PageCR3.html",
+        "description": "Sizzle sustainably with PureCook EcoSizzle, a cooker that heats up with eco-friendly technologies, ensuring every dish is cooked to perfection while minimizing environmental impact.",
+        "price": 440.00,
+        "type": "refurbished",
+        "images": [
+            "assets/images/cr3.0.png",
+            "assets/images/cr3.1.png",
+            "assets/images/cr3.2.png",
+            "assets/images/cr3.3.png"
+        ]
+    },
+    {
+        "title": "PureCycle Harmony",
+        "subtitle": "Nature's Symphony",
+        "page_link": "1PagePid8.html",
+        "description": "Find harmony with PureCycle Harmony, a washing machine that orchestrates eco-friendly wash cycles, creating a symphony of sustainability for your laundry needs.",
+        "price": 1799.00,
+        "type": "new",
+        "images": [
+            "assets/images/wm7.0.png",
+            "assets/images/wm7.1.png",
+            "assets/images/wm7.2.png",
+            "assets/images/wm7.3.png"
+        ]
+    },
+    {
+        "title": "EcoFresh Bloom",
+        "subtitle": "Blossoming Sustainability",
+        "page_link": "1PagePid9.html",
+        "description": "Witness sustainability bloom with EcoFresh Bloom, a washing machine that cultivates eco-friendly cycles, nurturing your clothes and the environment simultaneously.",
+        "price": 1530.00,
+        "type": "new",
+        "images": [
+            "assets/images/wm8.0.png",
+            "assets/images/wm8.1.png",
+            "assets/images/wm8.2.png",
+            "assets/images/wm8.3.png"
+        ]
+    },
+    {
+        "title": "GreenGlow EcoCare",
+        "subtitle": "Radiant Cleanliness",
+        "page_link": "1PagePid10.html",
+        "description": "Illuminate your laundry room with GreenGlow EcoCare, radiating eco-friendly cycles that shine a light on sustainable washing practices for a brighter future.",
+        "price": 1999.00,
+        "type": "new",
+        "images": [
+            "assets/images/wm9.0.png",
+            "assets/images/wm9.1.png",
+            "assets/images/wm9.2.png",
+            "assets/images/wm9.3.png"
+        ]
+    },
+    {
+        "title": "PureChill EcoCrisp",
+        "subtitle": "Crisp Conservation",
+        "page_link": "1PageRef4.html",
+        "description": "Conserve crispness with PureChill EcoCrisp, a refrigerator that preserves your food with eco-friendly cooling cycles, ensuring freshness while reducing energy consumption.",
+        "price": 2799.00,
+        "type": "new",
+        "images": [
+            "assets/images/ref4.0.png",
+            "assets/images/ref4.1.png",
+            "assets/images/ref4.2.png",
+            "assets/images/ref4.3.png"
+        ]
+    },
+    {
+        "title": "GreenGlow FreshFlow",
+        "subtitle": "Radiant Cooling",
+        "page_link": "1PageRef5.html",
+        "description": "Illuminate your kitchen with GreenGlow FreshFlow, radiating eco-friendly refrigeration that keeps your food cool and fresh, shining a light on sustainable preservation.",
+        "price": 1999.00,
+        "type": "new",
+        "images": [
+            "assets/images/ref5.0.png",
+            "assets/images/ref5.1.png",
+            "assets/images/ref5.2.png",
+            "assets/images/ref5.3.png"
+        ]
+    },
+    {
+        "title": "EcoFreeze FrostShield",
+        "subtitle": "Shielded Freshness",
+        "page_link": "1PageRef6.html",
+        "description": "Protect your food with EcoFreeze FrostShield, offering eco-friendly refrigeration that shields your food from frost while minimizing energy consumption, ensuring long-lasting freshness.",
+        "price": 1750.00,
+        "type": "new",
+        "images": [
+            "assets/images/ref6.0.png",
+            "assets/images/ref6.1.png",
+            "assets/images/ref6.2.png",
+            "assets/images/ref6.3.png"
+        ]
+    },
+    {
+        "title": "EcoFusion Revive",
+        "subtitle": "Revived Fusion",
+        "page_link": "1PageCR4.html",
+        "description": "Revive your cooking with EcoFusion Revive, offering eco-friendly cooking options that fuse culinary creativity with sustainable practices, ensuring every dish is a celebration of taste and environmental responsibility.",
+        "price": 1440.00,
+        "type": "new",
+        "images": [
+            "assets/images/cr4.0.png",
+            "assets/images/cr4.1.png",
+            "assets/images/cr4.2.png",
+            "assets/images/cr4.3.png"
+        ]
+    },
+    {
+        "title": "GreenRoast EcoFlame",
+        "subtitle": "Flame-Kissed Sustainability",
+        "page_link": "1PageCR5.html",
+        "description": "Embrace flame-kissed sustainability with GreenRoast EcoFlame, a cooker that roasts with eco-friendly flame technology, infusing every dish with a touch of environmental responsibility.",
+        "price": 2440.00,
+        "type": "new",
+        "images": [
+            "assets/images/cr5.0.png",
+            "assets/images/cr5.1.png",
+            "assets/images/cr5.2.png",
+            "assets/images/cr5.3.png"
+        ]
+    },
+    {
+        "title": "RenewaGrill EcoGourmet",
+        "subtitle": "Gourmet Greenery",
+        "page_link": "1PageCR6.html",
+        "description": "Indulge in gourmet greenery with RenewaGrill EcoGourmet, a cooker that grills with eco-friendly technologies, ensuring every dish is a culinary masterpiece crafted with sustainability in mind.",
+        "price": 1890.00,
+        "type": "new",
+        "images": [
+            "assets/images/cr6.0.png",
+            "assets/images/cr6.1.png",
+            "assets/images/cr6.2.png",
+            "assets/images/cr6.3.png"
+        ]
+    }
+]
