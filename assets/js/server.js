@@ -29,8 +29,8 @@ const MongoClient = require('mongodb').MongoClient;
 
 let db;
 
-MongoClient.connect('mongodb+srv://haydenfdes:hayden26@cluster0.biskd8a.mongodb.net/', (err, client) => {
-    db = client.db('Fathi_UG')
+MongoClient.connect('mongodb+srv://fa1113:Xterra12345@cluster0.70nbtis.mongodb.net/', (err, client) => {
+    db = client.db('QuickFix')
 })
 
 //display a message for root path to show that API is working
