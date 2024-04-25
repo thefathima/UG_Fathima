@@ -436,7 +436,7 @@
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading">
-            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+            <h4>Join our mailing list to receive the latest offers on appliances</h4>
           </div>
         </div>
         <div class="col-lg-6 offset-lg-3">
@@ -461,9 +461,9 @@
         <div class="col-lg-3">
           <div class="footer-widget">
             <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
+            <p>Based in Dubai, UAE</p>
+            <p><a href="#">04-532-34234</a></p>
+            <p><a href="#">info@Quickfix.co</a></p>
           </div>
         </div>
         <div class="col-lg-3">
@@ -504,19 +504,11 @@
           <div class="footer-widget">
             <h4>About Our Company</h4>
             <div class="logo">
-              <img src="assets/images/white-logo.png" alt="">
+              <img src="assets/images/logoqf2.png" alt="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et
-              dolore.</p>
+            <p>QuickFix is your ally in sustainable appliance care, offering an array of parts, appliances, and DIY guides. We're committed to making repair accessible and eco-friendly!</p>
           </div>
         </div>
-        <div class="col-lg-12">
-          <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
-              <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a>
-            </p>
-          </div>
         </div>
       </div>
     </div>
@@ -531,51 +523,6 @@
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      filterAppliances(); // Initialize the filter functionality
-
-      // Event listener for sorting selection
-      document.querySelectorAll('#sort-price').forEach(select => {
-        select.addEventListener('change', sortAppliances);
-      });
-    });
-
-    function filterAppliances() {
-      var selectElements = document.querySelectorAll('#appliance-type');
-      selectElements.forEach(select => {
-        select.addEventListener('change', function () {
-          var selectedType = this.value;
-          var refurbished = document.getElementById('refurbished-appliances');
-          var brandNew = document.getElementById('brandnew-appliances');
-          if (selectedType === 'refurbished') {
-            refurbished.style.display = 'block';
-            brandNew.style.display = 'none';
-          } else if (selectedType === 'brandnew') {
-            refurbished.style.display = 'none';
-            brandNew.style.display = 'block';
-          }
-        });
-      });
-    }
-
-    function sortAppliances() {
-      var selectedSort = this.value; // Gets the current value of the sorting select element
-      var container = this.closest('.appliance-section'); // Finds the parent container of the select element
-      var list = container.querySelector('ul'); // Finds the list within the container
-      var items = Array.from(list.querySelectorAll('li')); // Creates an array of the list items
-
-      // Sorts the array based on the innerText of the price paragraph
-      items.sort((a, b) => {
-        var priceA = parseFloat(a.querySelector('.product-price').innerText.replace(/[^0-9.-]+/g, ""));
-        var priceB = parseFloat(b.querySelector('.product-price').innerText.replace(/[^0-9.-]+/g, ""));
-        return selectedSort === 'lowToHigh' ? priceA - priceB : priceB - priceA;
-      });
-
-      // Re-appends the sorted items to the list
-      items.forEach(item => list.appendChild(item));
-    }
-  </script>
-
-
 </body>
+
+</html>
