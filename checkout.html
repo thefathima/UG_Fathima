@@ -93,12 +93,12 @@
                 <div class="col-12 col-lg-4">
                     <h4 class="mb-4">Order Summary</h4>
                     <div class="summary">
-                        <p>Subtotal: <span class="float-right">AED 99.99</span></p>
-                        <p>Value Added Tax (5%): <span class="float-right">AED 5.99</span></p>
-                        <p>Service Fee : <span class="float-right">AED 5.99</span></p>
+                        <p style="color: black; font-weight: 500;">Subtotal: <span class="float-right">AED 99.99</span></p>
+                        <p style="color: black; font-weight: 500;">Value Added Tax (5%): <span class="float-right">AED 5.99</span></p>
+                        <p style="color: black; font-weight: 500;">Service Fee : <span class="float-right">AED 5.99</span></p>
                         <!-- Optionally add more details like shipping, tax, etc -->
                         <p>----------------------------------------------------------------------</p>
-                        <p class="font-weight-bold">Total: <span class="float-right">AED 99.99</span></p>
+                        <p style="color: black; font-weight: bold;">Total: <span class="float-right">AED 99.99</span></p>
                         <br><br>
                         <div class="payment-methods">
                             <h4>Select Payment Method</h4>
@@ -177,7 +177,7 @@
                                 <h5>x${item.quantity}</h5>
                             </div>
                             <div class="item-total">
-                                <p>AED ${total.toFixed(2)}</p>
+                                <p style="color: black; font-weight: 500;">AED ${total.toFixed(2)}</p>
                             </div>
                             <div class="remove-item">
                                 <button class="btn btn-danger" onclick="removeItem(${index})">Remove</button>
